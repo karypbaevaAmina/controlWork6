@@ -1,11 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f4e6321-5cd7-45b3-ba0f-d31627600239" name="Changes" comment="" />
+    <list default="true" id="3f4e6321-5cd7-45b3-ba0f-d31627600239" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controlWork6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/controlWork6.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Generator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WorkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorkList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/TaskDataModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/TaskDataModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/BasicServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/BasicServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/ContentType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/ContentType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/Cookie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/Cookie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/ResponseCodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/ResponseCodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/RouteHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/RouteHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/FileServiceTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/FileServiceTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task.json" beforeDir="false" afterPath="$PROJECT_DIR$/task.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Class" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2EZ2GrXx0flWuCXv17jZADNKrWS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -15,11 +50,51 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Intelij (Java)/lesson44/homework46",
+    "list.type.of.created.stylesheet": "CSS",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="server" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Intelij (Java)\controlwork\controlWork6\src" />
+      <recent name="D:\Intelij (Java)\controlwork\controlWork6\src\server" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Intelij (Java)\controlwork\controlWork6\data" />
+      <recent name="D:\Intelij (Java)\controlwork\controlWork6" />
+      <recent name="D:\Intelij (Java)\controlwork\controlWork6\src" />
+      <recent name="D:\Intelij (Java)\controlwork\controlWork6\src\server" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="controlWork6" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -28,7 +103,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662788696023</updated>
+      <workItem from="1662789047767" duration="206000" />
+      <workItem from="1662789274738" duration="24800000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

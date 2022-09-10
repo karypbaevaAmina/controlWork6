@@ -1,4 +1,4 @@
-package kz.attractor.java.server;
+package server;
 
 public enum ContentType {
     TEXT_PLAIN("text/plain; charset=utf-8"),

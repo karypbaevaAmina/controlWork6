@@ -1,9 +1,19 @@
-package service;
+package models;
 
-import java.util.ArrayList;
+import service.FileServiceTask;
+import service.Task;
+
 import java.util.List;
+import java.util.Random;
 
 public class TaskDataModel {
+    private List <Task> tasks;
 
+    public TaskDataModel() {
+        this.tasks =FileServiceTask.readFile();
+    }
 
+    public List<Task> getTasks() {
+        return tasks;
+    }
 }

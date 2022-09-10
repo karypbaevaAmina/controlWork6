@@ -1,8 +1,7 @@
-package server;
+package service;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.google.gson.reflect.TypeToken;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -30,4 +29,13 @@ public class FileServiceTask {
     }
 
 
+    public static void writeFile(List <Task> ts) {
+        String json = GSON.toJson(ts);
+        try{
+            byte[] arr = json.getBytes();
+            Files.write(PATH, arr);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 }

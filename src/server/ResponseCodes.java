@@ -1,4 +1,4 @@
-package kz.attractor.java.server;
+package server;
 
 public enum ResponseCodes {
     OK(200),

@@ -1,4 +1,4 @@
-package kz.attractor.java.server;
+package server;
 
 import com.sun.net.httpserver.HttpExchange;
 

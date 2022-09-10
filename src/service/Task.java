@@ -1,27 +1,35 @@
-package server;
+package service;
+import java.util.Map;
 
 public class Task {
-    private Integer id;
-    private String taskName;
+    private String name;
+    private String desc;
 
-    public Task(Integer id, String taskName) {
-        this.id = id;
-        this.taskName = taskName;
+    public Task(String name, String desc) {
+        this.name = name;
+        this.desc = desc;
     }
 
-    public Integer getId() {
-        return id;
+    public static Task createTask(int i, Map<String, String> map) {
+        return new Task(map.get("name"), map.get("desc"));
+
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public String getName() {
+        return name;
     }
 
-    public String getTaskName() {
-        return taskName;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public void setTaskName(String taskName) {
-        this.taskName = taskName;
+    public String getDesc() {
+        return desc;
     }
+
+    public void setDesc(String desc) {
+        this.desc = desc;
+    }
+
+
 }

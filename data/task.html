@@ -1,10 +1,49 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>tasks</title>
+    <link href="css/freemarker.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 </head>
-<body>
-$END$
+<div class="container">
+    <p><a href="https://localhost:9869/calendar"><- Вернуться назад</a> </p>
+    <h1>Описание задачи:</h1>
+
+        <table class="table table-success table-striped">
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Задача</th>
+                <th scope="col">Описание</th>
+                <th scope="col">Действие</th>
+
+            </tr>
+            </thead>
+            <tbody class="table-group-divider">
+
+
+            </tbody>
+            <tbody class="table-group-divider">
+
+            <#list tasks as task>
+            <tr>
+                <th scope="row">${task?counter}</th>
+                <td> ${task.name!"-- не указано --"}</td>
+                <td> ${task.desc!"-- не указано --"}</td>
+                <td><a href = "https://localhost:9869/delete"> ${"Удалить"}</a></td>
+
+            </tr>
+            </#list>
+
+            </tbody>
+        </table>
+
+    <p><a href="/add"><- Добавить задачу</a> </p>
+</div>
+
 </body>
 </html>
